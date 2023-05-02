@@ -56,7 +56,7 @@ class _SecondState extends State<Second> {
                         ),
                       ),
                       Text(
-                        "Jensi Hirpara",
+                        "pd Hirpara",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
