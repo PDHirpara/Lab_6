@@ -19,18 +19,18 @@ class _SecondState extends State<Second> {
           ),
         ),
         actions: [
-          IconButton(
-            onPressed: () {
-              Navigator.of(context).pushNamed('first');
-            },
-            icon: const Icon(
-              Icons.home,
-              color: Colors.black,
-            ),
-          ),
+          // IconButton(
+          //   onPressed: () {
+          //     Navigator.of(context).pushNamed('first');
+          //   },
+          //   icon: const Icon(
+          //     Icons.home,
+          //     color: Colors.black,
+          //   ),
+          // ),
         ],
       ),
-      drawer: Drawer(
+      endDrawer: Drawer(
         backgroundColor: Colors.black,
         child: Column(
           children: [
